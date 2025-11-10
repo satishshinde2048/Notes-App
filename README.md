@@ -92,6 +92,13 @@ notes-app/
 ├── README.md
 └── package.json
 ```
+### Key Components
+
+- **Sidebar**: Displays note groups with avatars and handles group selection
+- **GroupPopup**: Modal for creating new note groups with color selection
+- **NotesArea**: Main area for viewing and adding notes to selected group
+- **App.jsx**: Root component managing application state
+```
 
 ## Method 2: Step-by-Step Instructions
 
