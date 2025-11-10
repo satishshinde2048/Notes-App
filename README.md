@@ -53,3 +53,5 @@ A modern, user-friendly notes management application where you can organize note
 ## Getting Started
 
 1. **Clone the repository:**
+git clone https://github.com/your-username/pocket-notes-app.git
+cd pocket-notes-app
