@@ -1,4 +1,4 @@
-# Pocket Notes App
+# Notes App
 
 A modern, user-friendly notes management application where you can organize notes by groups, have persistent storage, and a clean, responsive UI.
 
