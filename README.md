@@ -92,7 +92,7 @@ notes-app/
 ├── README.md
 └── package.json
 ```
-### Key Components
+## Key Components
 
 - **Sidebar**: Displays note groups with avatars and handles group selection
 - **GroupPopup**: Modal for creating new note groups with color selection
@@ -100,7 +100,7 @@ notes-app/
 - **App.jsx**: Root component managing application state
 ```
 
----
+
 
 ## Implementation Notes
 
