@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Pocket Notes App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, user-friendly notes management application where you can organize notes by groups, have persistent storage, and a clean, responsive UI.
 
-## Available Scripts
+![Pocket Notes Welcome Screen](./assets/welcome-screen.png)
+![Pocket Notes Main App](./assets/main-app.png)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Create Note Groups:**  
+  - Click the "+" button to open a popup for creating a new note group.  
+  - No duplicate group names are allowed.  
+  - Group names less than 2 characters are not allowed.  
+  - Each group's display picture uses the first two initials of the group name (in uppercase).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Close Popup by Clicking Outside:**  
+  - The group creation popup closes when you click outside the popup area.
 
-### `npm test`
+- **Add Notes Per Group:**  
+  - Add rich text notes to any group you select.  
+  - Notes are saved by pressing the Enter key or clicking the Send icon in the input field.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Persistent Storage:**  
+  - Groups and notes are saved in browser storage (localStorage), so your data persists on reload.
 
-### `npm run build`
+- **Meta Data (Timestamps):**  
+  - Each note shows created date and time, and when it was last updated.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Dynamic Send Button:**  
+  - The Send button is only active (colored) when there is content in the text box, per the design spec.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Responsive Design:**  
+  - The app design closely matches the provided Figma/mockup across desktop and mobile views.  
+  - The layout does not deviate from the given UI.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Switch Groups:**  
+  - Switching between groups updates the notes area in real-time based on the active group.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Screenshots
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Welcome Screen
+![Welcome Screen](./assets/welcome-screen.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Main Application View
+![Main App View](./assets/main-app.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Getting Started
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Clone the repository:**
