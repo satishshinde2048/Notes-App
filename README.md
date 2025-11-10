@@ -71,23 +71,39 @@ text
 
 ## Code Structure
 
-pocket-notes-app/
+## Project Structure
+
+```
+notes-app/
 ├── src/
-│ ├── components/
-│ │ ├── Sidebar/
-│ │ │ ├── Sidebar.jsx
-│ │ │ └── Sidebar.module.css
-│ │ ├── GroupPopup/
-│ │ │ ├── GroupPopup.jsx
-│ │ │ └── GroupPopup.module.css
-│ │ └── NotesArea/
-│ │ ├── NotesArea.jsx
-│ │ └── NotesArea.module.css
-│ ├── assets/
-│ │ └── InitialImg.png
-│ └── App.jsx
+│   ├── components/
+│   │   ├── Sidebar/
+│   │   │   ├── Sidebar.jsx
+│   │   │   └── Sidebar.module.css
+│   │   ├── GroupPopup/
+│   │   │   ├── GroupPopup.jsx
+│   │   │   └── GroupPopup.module.css
+│   │   └── NotesArea/
+│   │       ├── NotesArea.jsx
+│   │       └── NotesArea.module.css
+│   ├── assets/
+│   │   └── InitialImg.png
+│   └── App.jsx
 ├── README.md
 └── package.json
+```
+
+## Method 2: Step-by-Step Instructions
+
+1. **Open your README.md file** in any text editor or directly on GitHub
+
+2. **Add a heading** where you want the structure:
+   ```markdown
+   ## Project Structure
+   ```
+
+3. **Add triple backticks** on a new line:
+
 
 text
 
