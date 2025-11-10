@@ -100,26 +100,6 @@ notes-app/
 - **App.jsx**: Root component managing application state
 ```
 
-## Method 2: Step-by-Step Instructions
-
-1. **Open your README.md file** in any text editor or directly on GitHub
-
-2. **Add a heading** where you want the structure:
-   ```markdown
-   ## Project Structure
-   ```
-
-3. **Add triple backticks** on a new line:
-
-
-text
-
-- **Sidebar.jsx**, **Sidebar.module.css**: Renders the group list and handles group selection and new group creation.
-- **GroupPopup.jsx**, **GroupPopup.module.css**: Handles the popup for creating new groups, including validation and closing logic.
-- **NotesArea.jsx**, **NotesArea.module.css**: Handles displaying and adding notes for each group.
-- Utility functions (e.g., `getInitials`) provide initials for group avatars.
-- Styles are modular CSS for scoped, maintainable design.
-
 ---
 
 ## Implementation Notes
