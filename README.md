@@ -55,3 +55,75 @@ A modern, user-friendly notes management application where you can organize note
 1. **Clone the repository:**
 git clone https://github.com/your-username/pocket-notes-app.git
 cd pocket-notes-app
+2. **Install dependencies:**
+npm install
+
+text
+
+3. **Start the development server:**
+npm start
+
+text
+
+4. Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
+
+---
+
+## Code Structure
+
+pocket-notes-app/
+├── src/
+│ ├── components/
+│ │ ├── Sidebar/
+│ │ │ ├── Sidebar.jsx
+│ │ │ └── Sidebar.module.css
+│ │ ├── GroupPopup/
+│ │ │ ├── GroupPopup.jsx
+│ │ │ └── GroupPopup.module.css
+│ │ └── NotesArea/
+│ │ ├── NotesArea.jsx
+│ │ └── NotesArea.module.css
+│ ├── assets/
+│ │ └── InitialImg.png
+│ └── App.jsx
+├── README.md
+└── package.json
+
+text
+
+- **Sidebar.jsx**, **Sidebar.module.css**: Renders the group list and handles group selection and new group creation.
+- **GroupPopup.jsx**, **GroupPopup.module.css**: Handles the popup for creating new groups, including validation and closing logic.
+- **NotesArea.jsx**, **NotesArea.module.css**: Handles displaying and adding notes for each group.
+- Utility functions (e.g., `getInitials`) provide initials for group avatars.
+- Styles are modular CSS for scoped, maintainable design.
+
+---
+
+## Implementation Notes
+
+- **No duplicate group names:** Validation prevents creation of groups with duplicate or too-short names.
+- **Popup closes on outside click:** Listens for clicks outside the modal to automatically close.
+- **Group initials:** Extracts the first two uppercase letters for the group avatar.
+- **Persistent data:** Notes and groups are stored in localStorage and loaded on app boot.
+- **Fast switching:** Changing groups reloads only the relevant notes.
+- **Meta data:** Notes display created/updated date and time for full context.
+- **Responsive Design:** Fully optimized for both desktop and mobile views.
+
+---
+
+## Technologies Used
+
+- **React** - Frontend framework
+- **CSS Modules** - Scoped styling
+- **LocalStorage** - Persistent data storage
+- **JavaScript ES6+** - Modern JavaScript features
+
+---
+
+## Browser Support
+
+- Chrome (recommended)
+- Firefox
+- Safari
+- Edge
+
