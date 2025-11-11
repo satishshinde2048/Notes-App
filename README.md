@@ -67,7 +67,7 @@ pocket-notes-app/
 
 ### Main Application View
 <p align="center">
-  <img src="./src/assets/main-app.png" alt="Notes Main App" width="700" height="500">
+  <img src="./src/assets/mainpage.png" alt="Notes Main App" width="700" height="500">
 </p>
 
 
