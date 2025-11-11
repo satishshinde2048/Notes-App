@@ -24,6 +24,34 @@ Flashcard Generator App is a frontend application for creating and managing flas
    clicking on the sidebar terms associated with each 
    card group. Additionally, they can share, print, and download the flashcards.
 
+## `Project Structure`
+
+```
+pocket-notes-app/
+├── src/
+│   ├── components/
+│   │   ├── Sidebar/
+│   │   │   ├── Sidebar.jsx
+│   │   │   └── Sidebar.module.css
+│   │   ├── GroupPopup/
+│   │   │   ├── GroupPopup.jsx
+│   │   │   └── GroupPopup.module.css
+│   │   └── NotesArea/
+│   │       ├── NotesArea.jsx
+│   │       └── NotesArea.module.css
+│   ├── assets/
+│   │   └── InitialImg.png
+│   └── App.jsx
+├── README.md
+└── package.json
+```
+
+### Key Components
+
+- **Sidebar**: Displays note groups with avatars and handles group selection
+- **GroupPopup**: Modal for creating new note groups with color selection
+- **NotesArea**: Main area for viewing and adding notes to selected group
+- **App.jsx**: Root component managing application state
 
 ### `Features`
 
@@ -39,9 +67,6 @@ Flashcard Generator App is a frontend application for creating and managing flas
 - **Add Notes Per Group:**  
   - Add rich text notes to any group you select.  
   - Notes are saved by pressing the Enter key or clicking the Send icon in the input field.
-
-- **Persistent Storage:**  
-  - Groups and notes are saved in browser storage (localStorage), so your data persists on reload.
 
 - **Meta Data (Timestamps):**  
   - Each note shows created date and time, and when it was last updated.
