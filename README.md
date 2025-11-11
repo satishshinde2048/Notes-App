@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+# `Notes-App  `
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  + [Click Here](https://satishshinde2048.github.io/Notes-App/) to see my flashcard generator 
+  website.
 
-## Available Scripts
+## `Project Structure`
 
-In the project directory, you can run:
+```
+pocket-notes-app/
+├── src/
+│   ├── components/
+│   │   ├── Sidebar/
+│   │   │   ├── Sidebar.jsx
+│   │   │   └── Sidebar.module.css
+│   │   ├── GroupPopup/
+│   │   │   ├── GroupPopup.jsx
+│   │   │   └── GroupPopup.module.css
+│   │   └── NotesArea/
+│   │       ├── NotesArea.jsx
+│   │       └── NotesArea.module.css
+│   ├── assets/
+│   │   └── InitialImg.png
+│   └── App.jsx
+├── README.md
+└── package.json
+```
 
-### `npm start`
+### Key Components
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Sidebar**: Displays note groups with avatars and handles group selection
+- **GroupPopup**: Modal for creating new note groups with color selection
+- **NotesArea**: Main area for viewing and adding notes to selected group
+- **App.jsx**: Root component managing application state
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## `Project Features`
 
-### `npm test`
+- **Create Note Groups:**  
+  - Click the "+" button to open a popup for creating a new note group.  
+  - No duplicate group names are allowed.  
+  - Group names less than 2 characters are not allowed.  
+  - Each group's display picture uses the first two initials of the group name (in uppercase).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Close Popup by Clicking Outside:**  
+  - The group creation popup closes when you click outside the popup area.
 
-### `npm run build`
+- **Add Notes Per Group:**  
+  - Add rich text notes to any group you select.  
+  - Notes are saved by pressing the Enter key or clicking the Send icon in the input field.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Meta Data (Timestamps):**  
+  - Each note shows created date and time, and when it was last updated.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Dynamic Send Button:**  
+  - The Send button is only active (colored) when there is content in the text box, per the design spec.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Responsive Design:**  
+  - The app design closely matches the provided Figma/mockup across desktop and mobile views.  
+  - The layout does not deviate from the given UI.
 
-### `npm run eject`
+- **Switch Groups:**  
+  - Switching between groups updates the notes area in real-time based on the active group.
+ 
+## `Screenshots`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Welcome Screen
+![Welcome Screen](./assets/welcome-screen.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Main Application View
+![Main App View](./assets/main-app.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### `Authors`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ + @Satish Vilas Shinde
 
-## Learn More
+## `Tech Stack`
+  
+- **React** - Frontend framework
+  
+- **CSS Modules** - Scoped styling
+  
+- **JavaScript ES6+** - Modern JavaScript features
+     
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## `Run Locally`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
++ Clone the project:
 
-### Code Splitting
+      https://github.com/satishshinde2048/Notes-App.git 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
++ Navigate to the project directory:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+      cd notes-app
+                                                                                                       
++ Install dependencies:                                                                                                    
 
-### Making a Progressive Web App
+       npm install 
+                                                                                                                                                                                                                
++ Start the server:                                                                                                        
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+       npm start       
+      
+### `Deployment`
 
-### Advanced Configuration
+This project is live at: [https://satishshinde2048.github.io/Flashcard-Generator-project/](https://satishshinde2048.github.io/Notes-App/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
