@@ -66,7 +66,10 @@ pocket-notes-app/
 ![Welcome Screen](./src/assets/homepage.png)
 
 ### Main Application View
-![Main App View](./src/assets/mainpage.png)
+<p align="center">
+  <img src="./src/assets/main-app.png" alt="Notes Main App" width="700" height="500">
+</p>
+
 
 ## `Authors`
 
