@@ -66,7 +66,7 @@ pocket-notes-app/
 ![Welcome Screen](./src/assets/homepage.png)
 
 ### Main Application View
-![Main App View](./assets/mainpage.png)
+![Main App View](./src/assets/mainpage.png)
 
 ## `Authors`
 
