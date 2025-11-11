@@ -63,11 +63,13 @@ pocket-notes-app/
 ## `Screenshots`
 
 ### Welcome Screen
-![Welcome Screen](./src/assets/homepage.png)
+<p align="center">
+  <img src="./src/assets/homepage.png" alt="Home Page" width="600" height="400">
+</p>
 
 ### Main Application View
 <p align="center">
-  <img src="./src/assets/mainpage.png" alt="Notes Main App" width="700" height="500">
+  <img src="./src/assets/mainpage.png" alt="Main Page" width="600" height="400">
 </p>
 
 
