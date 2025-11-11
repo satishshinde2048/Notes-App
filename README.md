@@ -47,22 +47,11 @@ Flashcard Generator App is a frontend application for creating and managing flas
  + @Satish Vilas Shinde
 
 ### `Tech Stack`
-
-+ React js( React Router ),
-     
-+ Redux,       
-     
-+ TailwindCSS,  
-     
-+ React-icons,  
-     
-+ React Formik & Yup,   
-     
-+ React-toastify,
   
 - **React** - Frontend framework
+  
 - **CSS Modules** - Scoped styling
-- **LocalStorage** - Persistent data storage
+  
 - **JavaScript ES6+** - Modern JavaScript features
      
 
