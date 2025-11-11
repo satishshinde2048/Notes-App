@@ -1,6 +1,6 @@
 # `Notes-App  `
 
-  + [Click Here](https://satishshinde2048.github.io/Notes-App/) to see my flashcard generator 
+  + [Click Here](https://satishshinde2048.github.io/Notes-App/) to see my Notes App 
   website.
 
 ## `Project Structure`
@@ -63,7 +63,7 @@ pocket-notes-app/
 ## `Screenshots`
 
 ### Welcome Screen
-![Welcome Screen](./assets/homepage.png)
+![Welcome Screen](./src/assets/homepage.png)
 
 ### Main Application View
 ![Main App View](./assets/mainpage.png)
