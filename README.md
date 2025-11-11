@@ -59,6 +59,11 @@ Flashcard Generator App is a frontend application for creating and managing flas
 + React Formik & Yup,   
      
 + React-toastify,
+  
+- **React** - Frontend framework
+- **CSS Modules** - Scoped styling
+- **LocalStorage** - Persistent data storage
+- **JavaScript ES6+** - Modern JavaScript features
      
 
 ### `Run Locally`
