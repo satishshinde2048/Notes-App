@@ -1,6 +1,6 @@
-# `Flashcard-Generator-Project  `
+# `Notes-App  `
 
-  + [Click Here](https://satishshinde2048.github.io/Flashcard-Generator-project/) to see my flashcard generator 
+  + [Click Here](https://satishshinde2048.github.io/Notes-App/) to see my flashcard generator 
   website.
 
 ## `Project Structure`
@@ -32,7 +32,7 @@ pocket-notes-app/
 - **NotesArea**: Main area for viewing and adding notes to selected group
 - **App.jsx**: Root component managing application state
 
-### `Project Features`
+## `Project Features`
 
 - **Create Note Groups:**  
   - Click the "+" button to open a popup for creating a new note group.  
@@ -72,7 +72,7 @@ pocket-notes-app/
 
  + @Satish Vilas Shinde
 
-### `Tech Stack`
+## `Tech Stack`
   
 - **React** - Frontend framework
   
@@ -81,7 +81,7 @@ pocket-notes-app/
 - **JavaScript ES6+** - Modern JavaScript features
      
 
-### `Run Locally`
+## `Run Locally`
 
 + Clone the project:
 
@@ -100,18 +100,6 @@ pocket-notes-app/
 
        npm start       
       
-
-## `How To Use`
-
-1. Open the flashcard generator Click Here
-
-1. Fill up all the input boxes without any Errors and click on the "Create" button.
-
-1. For viewing recently created flashcards click on the "My flashcard" link this will show all flashcards you created recently.
-
-1. For the Viewing Details of the flashcard click on the "view card" button it will redirect you to the flashcard details page where you take a look at your flashcard details.
-
-
 ### `Deployment`
 
 This project is live at: [https://satishshinde2048.github.io/Flashcard-Generator-project/](https://satishshinde2048.github.io/Notes-App/)
