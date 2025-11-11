@@ -27,20 +27,6 @@ Flashcard Generator App is a frontend application for creating and managing flas
 
 ### `Features`
 
- + Implemented agile methodology for designing, analyzing, and developing the frontend project. The entire 
-    project  was planned out as a single sprint of 2 weeks.
-
-
-  + This application helps to create new flashcards and access created flashcards.
-
- 
-  + Utilized React, React-Redux, and localStorage to manage data, React-router for routing, and Tailwind CSS for 
-   component development and responsive design.
-
- 
-  + Improved the project’s efficiency by implementing validation using Formik.js on all the existing input fields, 
-   and extensive testing was carried out
-
 - **Create Note Groups:**  
   - Click the "+" button to open a popup for creating a new note group.  
   - No duplicate group names are allowed.  
@@ -69,7 +55,6 @@ Flashcard Generator App is a frontend application for creating and managing flas
 
 - **Switch Groups:**  
   - Switching between groups updates the notes area in real-time based on the active group.
-
 
 ### `Authors`
 
