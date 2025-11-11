@@ -63,12 +63,12 @@ pocket-notes-app/
 ## `Screenshots`
 
 ### Welcome Screen
-![Welcome Screen](./assets/welcome-screen.png)
+![Welcome Screen](./assets/homepage.png)
 
 ### Main Application View
-![Main App View](./assets/main-app.png)
+![Main App View](./assets/mainpage.png)
 
-### `Authors`
+## `Authors`
 
  + @Satish Vilas Shinde
 
@@ -100,7 +100,7 @@ pocket-notes-app/
 
        npm start       
       
-### `Deployment`
+## `Deployment`
 
 This project is live at: [https://satishshinde2048.github.io/Flashcard-Generator-project/](https://satishshinde2048.github.io/Notes-App/)
 
