@@ -80,6 +80,14 @@ pocket-notes-app/
 
 - **Switch Groups:**  
   - Switching between groups updates the notes area in real-time based on the active group.
+ 
+## Screenshots
+
+### Welcome Screen
+![Welcome Screen](./assets/welcome-screen.png)
+
+### Main Application View
+![Main App View](./assets/main-app.png)
 
 ### `Authors`
 
